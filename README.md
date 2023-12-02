@@ -21,5 +21,9 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       
 
 2. Advanced SQL
-   1. [Joins]()
-   2. [Using Alias for table names]()
+   1. Joins
+      1. [Joins](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_join.sql)
+      2. [Using Alias for table names](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_using_alias.sql)
+   2. Aggregation
+      1. [Group By clause for aggregating data]()
+      2. [Having Clause for filtering agrregated results]()
