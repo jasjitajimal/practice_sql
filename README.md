@@ -17,3 +17,4 @@ Follow the step-by-step process of learning SQL by navigating through the links 
          4. [Min Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_min.sql)
          5. [Max Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_max.sql)
       2. [String Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sring_function.sql)
+      3. [Date Function]()
