@@ -38,18 +38,16 @@ INSERT INTO sample_table (id, name, age, city) VALUES
 (9, 'Sam Taylor', 26, 'Miami'),
 (10, 'Grace Miller', 33, 'Dallas');
 
--- Following is the usage of Order BY clause. Select any of the type that is required.
--- Order by name in ascending order
-SELECT * FROM sample_table ORDER BY name;
+-- Following is the usage of COUNT function. Select any of the type that is required.
+-- Count the number of rows in the sample_table
+SELECT COUNT(*) AS row_count FROM sample_table;
 
--- Order by age in descending order
-SELECT * FROM sample_table ORDER BY age DESC;
+-- Count of people in each city
+SELECT city, COUNT(*) AS count_per_city FROM sample_table GROUP BY city;
 
--- Order by city in ascending order, and then by age in descending order
-SELECT * FROM sample_table ORDER BY city, age DESC;
+-- Cities with more than 2 people
+SELECT city, COUNT(*) AS count_per_city FROM sample_table GROUP BY city HAVING COUNT(*) > 2;
 
--- Order by age in ascending order, and then by name in descending order
-SELECT * FROM sample_table ORDER BY age, name DESC;
 /*
 * Change Log:
 *   2023-12-01 - Jasjit - Created query_orderby.sql.

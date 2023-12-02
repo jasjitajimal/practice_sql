@@ -38,19 +38,11 @@ INSERT INTO sample_table (id, name, age, city) VALUES
 (9, 'Sam Taylor', 26, 'Miami'),
 (10, 'Grace Miller', 33, 'Dallas');
 
--- Following is the usage of Order BY clause. Select any of the type that is required.
--- Order by name in ascending order
-SELECT * FROM sample_table ORDER BY name;
+-- Following is the usage of SUM function.
+-- Sum of ages in the sample_table
+SELECT SUM(age) AS total_age FROM sample_table;
 
--- Order by age in descending order
-SELECT * FROM sample_table ORDER BY age DESC;
-
--- Order by city in ascending order, and then by age in descending order
-SELECT * FROM sample_table ORDER BY city, age DESC;
-
--- Order by age in ascending order, and then by name in descending order
-SELECT * FROM sample_table ORDER BY age, name DESC;
 /*
 * Change Log:
-*   2023-12-01 - Jasjit - Created query_orderby.sql.
+*   2023-12-01 - Jasjit - Created query_sum.sql.
 */
