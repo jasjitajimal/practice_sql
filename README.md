@@ -17,8 +17,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
          4. [Min Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_min.sql)
          5. [Max Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_max.sql)
       2. [String Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sring_function.sql)
-      3. [Date Function]()
-      
+      3. [Date Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_date_functions.sql)
 
 2. Advanced SQL
    1. Joins
@@ -33,7 +32,14 @@ Follow the step-by-step process of learning SQL by navigating through the links 
    4. Data modifications
       1. [Insert, Update, Delete statements]()
       2. [Transactions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_transactions.sql) and [Data Integrity](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataintegrity.sql)
+      
        
 3. Data Manipulation  
-   1. [Different data types(string, numeric or date)](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_datatypes.sql)
-   2. [Type conversion Functions]
+   1. Data types
+      1. [string, numeric or date](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_datatypes.sql)
+      2. [Type conversion Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_type_conversion.sql)
+   2. Null Values
+      1. [Handling null values]()
+      2. [Is null and Is not null conditions]()
+   
+4. 
