@@ -38,21 +38,19 @@ INSERT INTO sample_table (id, name, age, city) VALUES
 (9, 'Sam Taylor', 26, 'Miami'),
 (10, 'Grace Miller', 33, 'Dallas');
 
--- Following is the usage of where clause using all conditions. Select any of the type that is required.
--- Selecting rows with various conditions
-SELECT * FROM sample_table
-WHERE
-    age = 28
-    OR city != 'Boston'
-    OR age > 30
-    OR age < 25
-    OR age >= 30
-    OR age <= 25
-    OR (age > 25 AND city = 'New York')
-    OR (age < 25 OR city = 'Boston')
-    OR city IN ('New York', 'Los Angeles')
-    OR name LIKE 'J%';
+-- Following is the usage of Order BY clause. Select any of the type that is required.
+-- Order by name in ascending order
+SELECT * FROM sample_table ORDER BY name;
+
+-- Order by age in descending order
+SELECT * FROM sample_table ORDER BY age DESC;
+
+-- Order by city in ascending order, and then by age in descending order
+SELECT * FROM sample_table ORDER BY city, age DESC;
+
+-- Order by age in ascending order, and then by name in descending order
+SELECT * FROM sample_table ORDER BY age, name DESC;
 /*
 * Change Log:
-*   2023-12-01 - Jasjit - Created query_where.sql.
+*   2023-12-01 - Jasjit - Created query_orderby.sql.
 */
