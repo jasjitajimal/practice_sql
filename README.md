@@ -14,6 +14,6 @@ Follow the step-by-step process of learning SQL by navigating through the links 
          1. [Count Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_count.sql)
          2. [Sum Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sum.sql)
          3. [Avg Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_avg.sql)
-         4. [Min Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_Min.sql)
+         4. [Min Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_min.sql)
          5. [Max Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_max.sql)
       2. [String Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sring_function.sql)
