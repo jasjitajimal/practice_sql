@@ -1,6 +1,7 @@
 /*********************************************
   SQL Server Script:query_nullvalues.sql
   Description: Example script demonstrating handling of null values in SQL.
+  Handling null values in SQL is crucial for managing missing or unknown data.
 **********************************************/
 
 -- Create a table with nullable columns

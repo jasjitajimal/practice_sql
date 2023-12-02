@@ -39,7 +39,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       1. [string, numeric or date](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_datatypes.sql)
       2. [Type conversion Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_type_conversion.sql)
    2. Null Values
-      1. [Handling null values]()
+      1. [Handling null values](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_nullvalues.sql)
       2. [Is null and Is not null conditions]()
    
 4. 
