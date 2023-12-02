@@ -35,4 +35,4 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Transactions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_transactions.sql) and [Data Integrity](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataintegrity.sql)
        
 3. Data Manipulation  
-   1.
+   1. [Different data types(string, numeric or date)](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_datatypes.sql)
