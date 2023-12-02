@@ -1,5 +1,5 @@
 /*
-  File: query_count.sql
+  File: query_query_date_functions.sql
   Author: Jasjit Singh
   Date: 2023-12-01
 */
