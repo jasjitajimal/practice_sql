@@ -1,4 +1,4 @@
--- Create the sample_table
+-- Creating the sample_table to practice Select query on
 CREATE TABLE sample_table (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -19,3 +19,9 @@ INSERT INTO sample_table (id, name, age, city) VALUES
 (9, 'Sam Taylor', 26, 'Miami'),
 (10, 'Grace Miller', 33, 'Dallas');
 
+-- Following are the two Select Statement
+-- Select all columns from the sample_table
+SELECT * FROM sample_table;
+
+-- Select specific columns
+SELECT name, age FROM sample_table;
