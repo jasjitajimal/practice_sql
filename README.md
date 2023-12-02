@@ -11,8 +11,8 @@ This is practice repository for learning SQL
       2. [Order By Clause Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_orderby.sql)
    3. Functions
       1. [Common SQL Functions]
-         1. [Count Function] 
-         2. [Sum Function]
-         3. [Avg Function]
-         4. [Min Function]
-         5. [Max Function]
+         1. [Count Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_count.sql)
+         2. [Sum Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sum.sql)
+         3. [Avg Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_avg.sql)
+         4. [Min Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_Min.sql)
+         5. [Max Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_max.sql)
