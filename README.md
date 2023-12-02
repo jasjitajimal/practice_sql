@@ -28,5 +28,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       1. [Group By clause for aggregating data](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_groupby.sql)
       2. [Having Clause for filtering aggregated results](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_having.sql)
    3. Subqueries
-      1. [Writing and using sub queries]
-      2. [Correlated sub queries]
+      1. [Writing and using sub queries](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/subquery.sql)
+      2. [Correlated sub queries](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/correlated_subquery.sql)
+   3. Data modifications
+      1. [Insert, Update, Delete statements]()
