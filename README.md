@@ -25,5 +25,8 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       1. [Joins](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_join.sql)
       2. [Using Alias for table names](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_using_alias.sql)
    2. Aggregation
-      1. [Group By clause for aggregating data]()
-      2. [Having Clause for filtering agrregated results]()
+      1. [Group By clause for aggregating data](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_groupby.sql)
+      2. [Having Clause for filtering aggregated results](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_having.sql)
+   3. Subqueries
+      1. [Writing and using sub queries]
+      2. [Correlated sub queries]
