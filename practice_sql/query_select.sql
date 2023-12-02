@@ -1,4 +1,24 @@
 -- Creating the sample_table to practice Select query on
+/*
+  File: query_select.sql
+  Author: Jasjit Singh
+  Date: 2023-12-01
+*/
+
+-- Create the sample_table
+/*
+* Table: sample_table
+* Purpose: Stores information about individuals.
+*
+* Columns:
+*   id - Unique identifier
+*   name - Name of the individual
+*   age - Age of the individual
+*   city - City of residence
+*/
+
+-- Creating the sample table
+
 CREATE TABLE sample_table (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -25,3 +45,8 @@ SELECT * FROM sample_table;
 
 -- Select specific columns
 SELECT name, age FROM sample_table;
+
+/*
+* Change Log:
+*   2023-12-01 - Jasjit - Created query_select.sql.
+*/
