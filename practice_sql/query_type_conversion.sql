@@ -1,5 +1,5 @@
 /*********************************************
-  SQL Server Script: query_type_conversion.sql
+  Script: query_type_conversion.sql
   Description: Example script demonstrating type conversion in SQL Server.
 **********************************************/
 
