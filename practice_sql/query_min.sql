@@ -1,5 +1,5 @@
 /*
-  File: query_select.sql
+  File: query_min.sql
   Author: Jasjit Singh
   Date: 2023-12-01
 */

@@ -1,5 +1,5 @@
 /*
-  File: query_select.sql
+  File: query_avg.sql
   Author: Jasjit Singh
   Date: 2023-12-01
 */

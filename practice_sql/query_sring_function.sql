@@ -69,5 +69,5 @@ FROM
     sample_table;
 /*
 * Change Log:
-*   2023-12-01 - Jasjit - Created query_sum.sql.
+*   2023-12-01 - Jasjit - Created query_string_function.sql.
 */
