@@ -1,5 +1,5 @@
 /*********************************************
-  SQLite Script: query_data_integrity.sql
+  Script: query_data_integrity.sql
   Description: Example script demonstrating various techniques for data integrity.
 **********************************************/
 

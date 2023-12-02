@@ -1,5 +1,5 @@
 /*********************************************
-  SQLite Script: query_transaction.sql
+  Script: query_transaction.sql
   Description: Example script for demonstrating transactions in SQLite.
 **********************************************/
 

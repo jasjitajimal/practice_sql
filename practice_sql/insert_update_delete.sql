@@ -1,5 +1,5 @@
 /*********************************************
-  SQLite Script: insert_update_delete.sql
+  Script: insert_update_delete.sql
   Description: Example script for table creation, INSERT, UPDATE, and DELETE operations.
 **********************************************/
 

@@ -1,5 +1,5 @@
 /*********************************************
-  SQLite Script: query_datatypes.sql
+  Script: query_datatypes.sql
   Description: Example script demonstrating different data types in SQLite.
 **********************************************/
 

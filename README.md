@@ -36,3 +36,4 @@ Follow the step-by-step process of learning SQL by navigating through the links 
        
 3. Data Manipulation  
    1. [Different data types(string, numeric or date)](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_datatypes.sql)
+   2. [Type conversion Functions]
