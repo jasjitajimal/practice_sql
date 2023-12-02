@@ -30,7 +30,9 @@ Follow the step-by-step process of learning SQL by navigating through the links 
    3. Subqueries
       1. [Writing and using sub queries](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/subquery.sql)
       2. [Correlated sub queries](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/correlated_subquery.sql)
-   3. Data modifications
+   4. Data modifications
       1. [Insert, Update, Delete statements]()
       2. [Transactions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_transactions.sql) and [Data Integrity](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataintegrity.sql)
-      3. 
+       
+3. Data Manipulation  
+   1.
