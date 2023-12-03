@@ -46,4 +46,4 @@ Follow the step-by-step process of learning SQL by navigating through the links 
 4. Best Practices and Performance Tuning
    1. [Best Practice in SQL](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_bestpracticeinsql.sql)
       1. [Writing efficient and readable sql codes](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_efficientandreadablesqlcodes.sql)
-      2. [Using appropriate naming convention]()
+      2. [Using appropriate naming convention](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/queries_naming_convention.sql)
