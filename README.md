@@ -40,6 +40,10 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Type conversion Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_type_conversion.sql)
    2. Null Values
       1. [Handling null values](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_nullvalues.sql)
-      2. [Is null and Is not null conditions]()
+      2. [Is null and Is not null conditions]https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_isnul_isnotnull.sql)
+      
    
-4. 
+4. Best Practices and Performance Tuning
+   1. [Best Practice in SQL]()
+      1. [Writing efficient and readable sql codes]
+      2. [Using appropriate naming convention]
