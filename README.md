@@ -49,4 +49,4 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Using appropriate naming convention](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/queries_naming_convention.sql)
    2. [Performance Tuning]
       1. [Identifying and resolving performance issue](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_bestpracticeinsql.sql)
-      2. [Indexing strategies for optimization]()
+      2. [Indexing strategies for optimization](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_indexiningstrategyforoptimization.sql)
