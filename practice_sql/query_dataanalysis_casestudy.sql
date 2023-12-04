@@ -1,6 +1,7 @@
 /*********************************************
   Script: query_data_analysis_case_studies.sql
   Description: Table creation for case studies demonstrating data analysis scenarios using SQL.
+               Case studies demonstrating data analysis scenarios using SQL.
 **********************************************/
 
 -- Table: SalesData
