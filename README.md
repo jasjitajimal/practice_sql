@@ -55,4 +55,4 @@ Follow the step-by-step process of learning SQL by navigating through the links 
 5. Case Study and Practical Application
    1. Real World Examples
       1. [Applying SQL to Real Life World Scenario](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_real_world_scenario.sql)
-      2. [Case Studies on Data Analysis using sql]()
+      2. [Case Studies on Data Analysis using sql](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataanalysis_casestudy.sql)
