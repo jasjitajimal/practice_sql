@@ -1,5 +1,5 @@
 /*********************************************
-  SQL Server Script: row_number_queries.sql
+  Script: queries_rownumber.sql
   Description: Queries demonstrating the usage of the ROW_NUMBER() window function in SQL Server.
 **********************************************/
 
