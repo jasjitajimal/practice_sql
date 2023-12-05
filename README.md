@@ -67,5 +67,11 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Rank]()
       3. [Dense_Rank]()
       4. [Over]()
-
-7. 
+      
+   2. CTE (Common Table Expressions):
+      1. Syntax and usage of CTE. 
+      2. Recursive CTEs.
+      
+   3. Indexes and Optimization:
+      1. Understanding indexes and their impact on performance. 
+      2. Query optimization techniques
