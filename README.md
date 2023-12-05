@@ -65,7 +65,8 @@ Follow the step-by-step process of learning SQL by navigating through the links 
    1. Window Functions:
       1. [Row Number](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rownumber.sql)
       2. [Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank.sql)
-      3. [Dense_Rank]()
+      3. [Dense_Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dense_rank.sql)
+      4. [Difference between rank and dense_rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank_vs_dense_rank.sql)
       4. [Over]()
       
    2. CTE (Common Table Expressions):
