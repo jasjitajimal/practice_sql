@@ -2,6 +2,29 @@
   Script: query_cte.sql
   Description: Queries demonstrating the syntax and usage of Common Table Expressions (CTEs).
 **********************************************/
+-- Create Tables
+
+-- Table: Employees
+CREATE TABLE IF NOT EXISTS dbo.Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    ManagerID INT REFERENCES dbo.Employees(EmployeeID)
+);
+
+-- End of Table Creation
+
+-- Insert Sample Data
+
+INSERT INTO dbo.Employees (EmployeeID, FirstName, LastName, ManagerID) VALUES
+(1, 'John', 'Doe', NULL),
+(2, 'Jane', 'Smith', 1),
+(3, 'Bob', 'Johnson', 2),
+(4, 'Alice', 'Williams', 2),
+(5, 'Charlie', 'Brown', 1),
+(6, 'Eva', 'Davis', 5);
+
+-- End of Data Insertion
 
 -- Query 1: Basic CTE
 -- Retrieves employee details using a simple CTE.
