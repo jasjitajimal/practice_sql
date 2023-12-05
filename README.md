@@ -63,7 +63,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
 
 6. Advanced SQL Topics for Analysis
    1. Window Functions:
-      1. [Row Number]()
+      1. [Row Number](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rownumber.sql)
       2. [Rank]()
       3. [Dense_Rank]()
       4. [Over]()
