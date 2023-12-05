@@ -59,9 +59,13 @@ Follow the step-by-step process of learning SQL by navigating through the links 
    2. Hands on Project
       1. Working on projects that involve SQL and Tableau integration.
       2. Developing solutions for common business scenarios.
+      
 
 6. Advanced SQL Topics for Analysis
    1. Window Functions:
       1. [Row Number]()
       2. [Rank]()
       3. [Dense_Rank]()
+      4. [Over]()
+
+7. 
