@@ -1,199 +1,177 @@
 /*********************************************
   Script: query_rank.sql
-  Description: Queries demonstrating the use of Window Rank functions in SQL.
+  Description: Queries demonstrating the use of Windows RANK() function in SQL.
 **********************************************/
 
--- Create Tables
-
--- Table: Employees
-CREATE TABLE IF NOT EXISTS dbo.Employees (
-    EmployeeID INT PRIMARY KEY,
-    FirstName NVARCHAR(50),
-    LastName NVARCHAR(50),
-    Salary DECIMAL(10, 2),
-    DepartmentID INT REFERENCES dbo.Departments(DepartmentID)
+-- Create Sample Table
+CREATE TABLE IF NOT EXISTS SampleTable (
+    ID INT PRIMARY KEY,
+    Category NVARCHAR(50),
+    Value INT
 );
 
--- Table: Departments
-CREATE TABLE IF NOT EXISTS dbo.Departments (
-    DepartmentID INT PRIMARY KEY,
-    DepartmentName NVARCHAR(255)
-);
+-- Insert Sample Data
+INSERT INTO SampleTable (ID, Category, Value)
+VALUES (1, 'A', 10),
+       (2, 'A', 20),
+       (3, 'A', 30),
+       (4, 'B', 15),
+       (5, 'B', 25),
+       (6, 'C', 12),
+       (7, 'C', 18),
+       (8, 'C', 22);
 
--- End of Table Creation
-
--- Insert Data
-
--- Insert into Departments
-INSERT INTO dbo.Departments (DepartmentID, DepartmentName)
-VALUES
-    (1, 'HR'),
-    (2, 'IT'),
-    (3, 'Finance');
-
--- Insert into Employees
-INSERT INTO dbo.Employees (EmployeeID, FirstName, LastName, Salary, DepartmentID)
-VALUES
-    (1, 'John', 'Doe', 60000, 1),
-    (2, 'Jane', 'Smith', 75000, 1),
-    (3, 'Bob', 'Johnson', 80000, 2),
-    (4, 'Alice', 'Williams', 70000, 2),
-    (5, 'Charlie', 'Brown', 90000, 3),
-    (6, 'David', 'Jones', 95000, 3);
-
--- End of Data Insertion
-
--- Query 1: Rank Employees by Salary
--- Ranks employees based on salary in descending order.
+-- Query 1: Rank within each category based on value in descending order
 -- Comments:
--- - RANK() is used to assign a rank to each row in the result set.
--- - PARTITION BY is used to restart the rank for each department.
--- - ORDER BY determines the ranking order.
+-- - Uses RANK() function to assign ranks within each category.
+-- - ORDER BY determines the order of ranking within each partition.
+-- - Ranks are reset for each category.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
+    ID,
+    Category,
+    Value,
+    RANK() OVER (PARTITION BY Category ORDER BY Value DESC) AS RankWithinCategory
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 2: Dense Rank Employees by Salary
--- Densely ranks employees based on salary in descending order.
+-- Query 2: Rank based on value across all categories in ascending order
 -- Comments:
--- - DENSE_RANK() is used for dense ranking, where tied values receive the same rank.
--- - PARTITION BY and ORDER BY determine the ranking order.
+-- - RANK() without PARTITION BY ranks across all categories.
+-- - ORDER BY determines the order of ranking.
+-- - Ranks are not reset for each category.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    DENSE_RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS DenseSalaryRank
+    ID,
+    Category,
+    Value,
+    RANK() OVER (ORDER BY Value) AS RankAcrossCategories
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 3: Row Number for Each Employee
--- Assigns a unique row number to each employee.
+-- Query 3: Rank within each category based on value in ascending order
 -- Comments:
--- - ROW_NUMBER() is used for generating a unique row number for each row.
--- - PARTITION BY is optional and used to restart numbering for each department.
+-- - Similar to Query 1 but with ascending order.
+-- - RANK() function assigns ranks within each category.
+-- - ORDER BY determines the order of ranking within each partition.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    ROW_NUMBER() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS RowNumber
+    ID,
+    Category,
+    Value,
+    RANK() OVER (PARTITION BY Category ORDER BY Value) AS RankWithinCategoryAsc
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 4: Rank Employees within Each Department Alphabetically
--- Ranks employees within each department alphabetically by last name.
+-- Query 4: Rank based on value across all categories in descending order
 -- Comments:
--- - RANK() is used to assign a rank to each row based on alphabetical order.
--- - PARTITION BY is used to restart the rank for each department.
--- - ORDER BY determines the ranking order.
+-- - Similar to Query 2 but with descending order.
+-- - RANK() without PARTITION BY ranks across all categories.
+-- - ORDER BY determines the order of ranking.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    RANK() OVER (PARTITION BY DepartmentID ORDER BY LastName, FirstName) AS AlphabeticalRank
+    ID,
+    Category,
+    Value,
+    RANK() OVER (ORDER BY Value DESC) AS RankAcrossCategoriesDesc
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 5: Dense Rank Employees by Salary with Ties
--- Densely ranks employees based on salary in descending order, handling ties.
+-- Query 5: Rank with ties allowed (same rank for tied values)
 -- Comments:
--- - DENSE_RANK() is used for dense ranking, handling tied values.
--- - PARTITION BY and ORDER BY determine the ranking order.
+-- - RANK() function allows ties, assigning the same rank to tied values.
+-- - No PARTITION BY clause, so ties are determined across all rows.
+-- - ORDER BY determines the order of ranking.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    DENSE_RANK() OVER (ORDER BY Salary DESC) AS DenseGlobalSalaryRank
+    ID,
+    Category,
+    Value,
+    RANK() OVER (ORDER BY Value) AS RankWithTies
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 6: Row Number for Each Employee with Global Order
--- Assigns a unique row number to each employee without partitioning.
+-- Query 6: Rank with ties allowed within each category
 -- Comments:
--- - ROW_NUMBER() is used for generating a unique row number without partitioning.
--- - ORDER BY determines the global ranking order.
+-- - RANK() function allows ties within each category.
+-- - PARTITION BY clause is used to reset ranks for each category.
+-- - ORDER BY determines the order of ranking within each partition.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    ROW_NUMBER() OVER (ORDER BY Salary DESC) AS GlobalRowNumber
+    ID,
+    Category,
+    Value,
+    RANK() OVER (PARTITION BY Category ORDER BY Value) AS RankWithTiesWithinCategory
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 7: Rank Employees by Salary and Include Ties
--- Ranks employees based on salary, including ties (equal values).
+-- Query 7: Rank using a different ordering column
 -- Comments:
--- - RANK() is used to assign a rank to each row.
--- - PARTITION BY is optional; ORDER BY determines the ranking order.
+-- - RANK() function can use a different column for ordering.
+-- - In this case, ordering is based on the length of the Category column.
+-- - Ranks are assigned based on the ordering column.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    RANK() OVER (ORDER BY Salary DESC) AS GlobalSalaryRank
+    ID,
+    Category,
+    Value,
+    RANK() OVER (ORDER BY LEN(Category)) AS RankByCategoryLength
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 8: Use of NTILE for Quartiles
--- Divides employees into quartiles based on salary.
+-- Query 8: Rank with NULL values
 -- Comments:
--- - NTILE() is used to divide the result set into specified numbers of groups.
--- - In this case, it divides employees into quartiles.
+-- - RANK() function handles NULL values.
+-- - NULL values are treated as the lowest possible value.
+-- - Ranks are assigned accordingly.
+
+INSERT INTO SampleTable (ID, Category, Value)
+VALUES (9, 'A', NULL),
+       (10, 'B', NULL);
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    NTILE(4) OVER (ORDER BY Salary DESC) AS Quartile
+    ID,
+    Category,
+    Value,
+    RANK() OVER (ORDER BY Value) AS RankWithNullValues
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 9: Calculate Running Total of Salaries
--- Computes the running total of salaries within each department.
+-- Query 9: Rank using a complex ordering condition
 -- Comments:
--- - SUM() as a window function is used to calculate the running total.
--- - PARTITION BY is used to restart the total for each department.
+-- - RANK() function can use a complex ordering condition.
+-- - In this case, ordering is based on the value and the length of the Category column.
+-- - Ranks are assigned based on the ordering condition.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    SUM(Salary) OVER (PARTITION BY DepartmentID ORDER BY EmployeeID) AS RunningTotal
+    ID,
+    Category,
+    Value,
+    RANK() OVER (ORDER BY Value, LEN(Category) DESC) AS ComplexRanking
 FROM
-    dbo.Employees;
+    SampleTable;
 
--- Query 10: Use of FIRST_VALUE and LAST_VALUE
--- Retrieves the first and last salary within each department.
+-- Query 10: Rank using a subset of rows (TOP N)
 -- Comments:
--- - FIRST_VALUE() and LAST_VALUE() retrieve the first and last values in the window.
--- - PARTITION BY determines the grouping.
+-- - RANK() can be applied to a subset of rows using TOP N.
+-- - In this case, RANK is applied to the top 3 values within each category.
+-- - PARTITION BY determines ranks within each category.
 
 SELECT
-    EmployeeID,
-    FirstName,
-    LastName,
-    Salary,
-    FIRST_VALUE(Salary) OVER (PARTITION BY DepartmentID ORDER BY EmployeeID) AS FirstSalary,
-    LAST_VALUE(Salary) OVER (PARTITION BY DepartmentID ORDER BY EmployeeID) AS LastSalary
+    ID,
+    Category,
+    Value,
+    RANK() OVER (PARTITION BY Category ORDER BY Value DESC) AS RankTop3WithinCategory
 FROM
-    dbo.Employees;
+    (
+        SELECT TOP 3
+            ID,
+            Category,
+            Value
+        FROM
+            SampleTable
+        ORDER BY
+            Value DESC
+    ) AS Top3Rows;
 
 -- End of Script
