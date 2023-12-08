@@ -61,6 +61,7 @@ WHERE last_name IS NULL OR salary IS NOT NULL;
 -- Comments on Example 2
 -- Filtering and handling nulls in WHERE clause using IS NULL and IS NOT NULL.
 
+
 -- Example 3: Handling nulls in aggregate functions
 -- Using ISNULL to replace nulls before aggregation
 SELECT
