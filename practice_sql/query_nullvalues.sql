@@ -46,6 +46,7 @@ FROM employee;
 -- Comments on Example 1
 -- Handling null values in SELECT statements using COALESCE, ISNULL, and NULLIF functions.
 
+
 -- Example 2: Filtering and handling nulls in WHERE clause
 SELECT
     employee_id,
