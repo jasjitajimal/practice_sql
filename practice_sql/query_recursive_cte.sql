@@ -203,9 +203,6 @@ SELECT
 FROM
     RecursiveOrganizationalChartCTE;
 
--- Add more queries following the same pattern for various recursive scenarios.
-
--- End of Script
 
 
 -- Add more queries following the same pattern for various recursive scenarios.
