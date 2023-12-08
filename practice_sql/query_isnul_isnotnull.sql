@@ -156,4 +156,5 @@ SELECT supplier_id, supplier_name
 FROM suppliers
 WHERE NOT EXISTS (SELECT 1 FROM products WHERE products.supplier_id = suppliers.supplier_id AND category_id IS NULL);
 
+
 -- End of Script
