@@ -83,6 +83,7 @@ FROM
 -- Query 3: CTE with Aggregation
 -- Calculates the average salary using a CTE with aggregation.
 -- Comments:
+
 -- - Aggregation functions can be applied to CTEs for summary calculations.
 
 WITH AverageSalaryCTE AS (
