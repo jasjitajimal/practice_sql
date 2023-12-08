@@ -74,5 +74,5 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Recursive CTEs](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_recursive_cte.sql)
       
    3. Indexes and Optimization: (Check best practices and performance tuning)
-      1. Understanding indexes and their impact on performance. 
+      1. [Understanding indexes and their impact on performance](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_indexiningstrategyforoptimization.sql) 
       2. Query optimization techniques
