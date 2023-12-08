@@ -37,6 +37,7 @@ INSERT INTO dbo.Employees VALUES (6, 'Diana', 'Miller', 65000, 3);
 
 -- Query 1: Dense Rank within Each Department based on Salary
 -- Retrieves employees with dense rank within each department based on salary.
+
 -- Comments:
 -- - PARTITION BY clause divides the result set into partitions.
 -- - DENSE_RANK() assigns a unique rank to each distinct salary within each partition.
