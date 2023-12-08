@@ -265,4 +265,5 @@ WHEN NOT MATCHED THEN
 -- CTEs are temporary result sets used to organize and process data within a query.
 -- The script includes examples of basic CTEs, recursive CTEs, CTEs with aggregation, and more.
 
+
 -- End of Script
