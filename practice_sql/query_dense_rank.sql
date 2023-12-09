@@ -150,6 +150,7 @@ ORDER BY
     Salary DESC
 FETCH NEXT 3 ROWS ONLY;
 
+
 -- Query 8: Dense Rank for Bottom N Employees within Each Department
 -- Retrieves the bottom 2 employees based on salary within each department with their dense rank.
 -- Comments:
