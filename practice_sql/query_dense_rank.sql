@@ -67,6 +67,7 @@ SELECT
 FROM
     dbo.Employees;
 
+
 -- Query 3: Dense Rank within Each Department based on Salary (Ascending Order)
 -- Retrieves employees with dense rank within each department based on salary in ascending order.
 -- Comments:
