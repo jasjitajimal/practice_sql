@@ -212,4 +212,5 @@ FROM (
 WHERE
     Salary > DepartmentAvgSalary;
 
+
 -- End of Script
