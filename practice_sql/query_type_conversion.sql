@@ -52,4 +52,5 @@ FROM sample_data;
 -- Displaying the original data along with type-converted columns.
 -- Demonstrating various type conversion functions in SQL Server.
 
+
 -- End of Script
