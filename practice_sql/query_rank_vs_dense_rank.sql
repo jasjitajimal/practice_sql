@@ -59,6 +59,7 @@ SELECT
 FROM
     YourTable;
 
+
 -- RANK() Example
 SELECT
     Value,
