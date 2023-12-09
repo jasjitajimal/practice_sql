@@ -157,6 +157,7 @@ FETCH NEXT 3 ROWS ONLY;
 -- - Bottom N rows are selected based on salary in ascending order within each department.
 -- - PARTITION BY divides the result set into partitions based on the department.
 
+
 SELECT
     EmployeeID,
     FirstName,
