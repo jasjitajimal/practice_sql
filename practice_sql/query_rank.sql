@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS SampleTable (
     Category NVARCHAR(50),
     Value INT
 );
+
 -- Insert Sample Data
 INSERT INTO SampleTable (ID, Category, Value)
 VALUES (1, 'A', 10),
