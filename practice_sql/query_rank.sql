@@ -63,6 +63,7 @@ SELECT
 FROM
     SampleTable;
 
+
 -- Query 4: Rank based on value across all categories in descending order
 -- Comments:
 -- - Similar to Query 2 but with descending order.
