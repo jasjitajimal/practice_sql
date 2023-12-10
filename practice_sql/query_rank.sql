@@ -82,6 +82,7 @@ FROM
 -- - RANK() function allows ties, assigning the same rank to tied values.
 -- - No PARTITION BY clause, so ties are determined across all rows.
 -- - ORDER BY determines the order of ranking.
+
 SELECT
     ID,
     Category,
