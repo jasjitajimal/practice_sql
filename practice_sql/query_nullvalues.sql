@@ -87,5 +87,4 @@ SELECT * FROM employee;
 -- Comments on Example 4
 -- Updating null values with default values using ISNULL.
 
-
 -- End of Script
