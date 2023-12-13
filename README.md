@@ -43,7 +43,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Is null and Is not null conditions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_isnul_isnotnull.sql)
       
    
-4. Best Practices and Performance Tuning
+4. **Best Practices and Performance Tuning**
    1. [Best Practice in SQL](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_bestpracticeinsql.sql)
       1. [Writing efficient and readable sql codes](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_efficientandreadablesqlcodes.sql)
       2. [Using appropriate naming convention](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/queries_naming_convention.sql)
@@ -52,7 +52,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Indexing strategies for optimization](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_indexiningstrategyforoptimization.sql)
       
 
-5. Case Study and Practical Application
+5. **Case Study and Practical Application
    1. Real World Examples
       1. [Applying SQL to Real Life World Scenario](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_real_world_scenario.sql)
       2. [Case Studies on Data Analysis using sql](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataanalysis_casestudy.sql)
