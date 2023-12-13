@@ -61,18 +61,18 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       
 
 6. **Advanced SQL Topics for Analysis**
-   1. Window Functions:
+   1. *Window Functions:*
       1. [Row Number](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rownumber.sql)
       2. [Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank.sql)
       3. [Dense_Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dense_rank.sql)
       4. [Difference between rank and dense_rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank_vs_dense_rank.sql)
       4. [Over](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_over.sql)
       
-   2. CTE (Common Table Expressions):
+   2. *CTE (Common Table Expressions):*
       1. [Syntax and usage of CTE](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_cte.sql)
       2. [Recursive CTEs](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_recursive_cte.sql)
       
-   3. Indexes and Optimization: (Check best practices and performance tuning)
+   3. *Indexes and Optimization: (Check best practices and performance tuning)*
       1. [Understanding indexes and their impact on performance](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_indexiningstrategyforoptimization.sql) 
       2. [Query optimization techniques] (https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_bestpracticeinsql.sql)
       
