@@ -3,10 +3,10 @@
 Follow the step-by-step process of learning SQL by navigating through the links in the Table of Contents that lead to SQL queries.
 
 1. **Sql Basics**
-   1. Basic SQL Statements
+   1. *Basic SQL Statements*
       1. [Select Statement Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_select.sql)
       2. [Select Distinct Statement Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_select_distinct.sql)
-   2. Filtering and Sorting Data
+   2. *Filtering and Sorting Data*
       1. [Where Clause Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_where.sql)
       2. [Order By Clause Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_orderby.sql)
    3. Functions
