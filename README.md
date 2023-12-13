@@ -2,7 +2,7 @@
 
 Follow the step-by-step process of learning SQL by navigating through the links in the Table of Contents that lead to SQL queries.
 
-1. Sql Basics
+1. **Sql Basics**
    1. Basic SQL Statements
       1. [Select Statement Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_select.sql)
       2. [Select Distinct Statement Query](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_select_distinct.sql)
@@ -19,7 +19,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [String Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sring_function.sql)
       3. [Date Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_date_functions.sql)
 
-2. Advanced SQL
+2. **Advanced SQL**
    1. Joins
       1. [Joins](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_join.sql)
       2. [Using Alias for table names](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_using_alias.sql)
