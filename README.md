@@ -35,16 +35,15 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       
        
 3. **Data Manipulation**  
-   1. Data types
+   1. *Data types*
       1. [string, numeric or date](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_datatypes.sql)
       2. [Type conversion Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_type_conversion.sql)
-   2. Null Values
+   2. *Null Values*
       1. [Handling null values](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_nullvalues.sql)
       2. [Is null and Is not null conditions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_isnul_isnotnull.sql)
       
    
 4. **Best Practices and Performance Tuning**
-   1. [Best Practice in SQL](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_bestpracticeinsql.sql)
       1. [Writing efficient and readable sql codes](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_efficientandreadablesqlcodes.sql)
       2. [Using appropriate naming convention](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/queries_naming_convention.sql)
    2. [Performance Tuning]
@@ -53,10 +52,10 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       
 
 5. **Case Study and Practical Application**
-   1. Real World Examples
+   1. *Real World Examples*
       1. [Applying SQL to Real Life World Scenario](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_real_world_scenario.sql)
       2. [Case Studies on Data Analysis using sql](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataanalysis_casestudy.sql)
-   2. Hands on Project
+   2. *Hands on Project*
       1. Working on projects that involve SQL and Tableau integration.
       2. Developing solutions for common business scenarios.
       
