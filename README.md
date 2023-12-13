@@ -52,7 +52,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Indexing strategies for optimization](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_indexiningstrategyforoptimization.sql)
       
 
-5. **Case Study and Practical Application
+5. **Case Study and Practical Application**
    1. Real World Examples
       1. [Applying SQL to Real Life World Scenario](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_real_world_scenario.sql)
       2. [Case Studies on Data Analysis using sql](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dataanalysis_casestudy.sql)
@@ -61,7 +61,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. Developing solutions for common business scenarios.
       
 
-6. Advanced SQL Topics for Analysis
+6. **Advanced SQL Topics for Analysis**
    1. Window Functions:
       1. [Row Number](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rownumber.sql)
       2. [Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank.sql)
