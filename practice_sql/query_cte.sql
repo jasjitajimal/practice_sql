@@ -4,6 +4,7 @@
 **********************************************/
 -- Create Tables
 
+
 -- Table: Employees
 CREATE TABLE IF NOT EXISTS dbo.Employees (
     EmployeeID INT PRIMARY KEY,
