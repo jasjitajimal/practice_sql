@@ -27,6 +27,7 @@ CREATE TABLE IF NOT EXISTS courses (
     credit_hours INTEGER CHECK (credit_hours >= 0) -- Check constraint ensuring credit_hours is non-negative
 );
 
+
 -- Trigger for Total Credit Hours Update
 CREATE TRIGGER update_total_credit_hours
 AFTER INSERT ON enrolled_courses
@@ -64,7 +65,6 @@ SELECT * FROM enrolled_courses;
 
 /*********************************************
   CREATE TRIGGER: This statement is used to create a new trigger.
-
 
   update_total_credit_hours: This is the name of the trigger. You can give it any name that makes sense to you.
 
