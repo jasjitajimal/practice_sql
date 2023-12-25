@@ -65,6 +65,7 @@ SELECT * FROM enrolled_courses;
 /*********************************************
   CREATE TRIGGER: This statement is used to create a new trigger.
 
+
   update_total_credit_hours: This is the name of the trigger. You can give it any name that makes sense to you.
 
   AFTER INSERT ON enrolled_courses: This specifies when the trigger should be activated. In this case, it is set to
