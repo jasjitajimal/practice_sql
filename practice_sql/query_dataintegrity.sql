@@ -64,6 +64,7 @@ SELECT * FROM courses;
 SELECT * FROM enrolled_courses;
 
 /*********************************************
+
   --Following is the comment on Create trigger and explains its execution process
   CREATE TRIGGER: This statement is used to create a new trigger.
 
