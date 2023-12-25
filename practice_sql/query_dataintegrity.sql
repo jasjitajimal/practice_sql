@@ -27,6 +27,7 @@ CREATE TABLE IF NOT EXISTS courses (
     credit_hours INTEGER CHECK (credit_hours >= 0) -- Check constraint ensuring credit_hours is non-negative
 );
 
+
 -- Trigger for Total Credit Hours Update
 CREATE TRIGGER update_total_credit_hours
 AFTER INSERT ON enrolled_courses
