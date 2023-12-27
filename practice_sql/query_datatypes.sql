@@ -3,7 +3,6 @@
   Description: Example script demonstrating different data types in SQLite.
 **********************************************/
 
-
 -- Create a table for string data types
 CREATE TABLE IF NOT EXISTS string_types_info (
     data_type TEXT,
