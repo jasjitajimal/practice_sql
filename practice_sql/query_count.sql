@@ -25,6 +25,7 @@ CREATE TABLE sample_table (
     city VARCHAR(50)
 );
 
+
 -- Insert some sample data
 INSERT INTO sample_table (id, name, age, city) VALUES
 (1, 'John Doe', 25, 'New York'),
