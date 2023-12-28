@@ -4,7 +4,6 @@
   Date: 2023-12-01
 */
 
-
 -- Create the sample_table
 /*
 * Table: sample_table
