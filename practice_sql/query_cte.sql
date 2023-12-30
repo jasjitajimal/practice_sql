@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS dbo.Employees (
 
 -- End of Table Creation
 
+
 -- Insert Sample Data
 
 INSERT INTO dbo.Employees (EmployeeID, FirstName, LastName, ManagerID) VALUES
