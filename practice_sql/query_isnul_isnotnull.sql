@@ -3,7 +3,6 @@
   Description: Examples demonstrating the use of IS NULL and IS NOT NULL conditions with created tables.
 **********************************************/
 
-
 -- Create a table for employees
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
