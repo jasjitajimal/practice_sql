@@ -16,8 +16,6 @@
 *   city - City of residence
 */
 
-
-
 -- Creating the sample table
 
 CREATE TABLE sample_table (
