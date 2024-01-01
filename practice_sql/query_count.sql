@@ -17,6 +17,7 @@
 */
 
 
+
 -- Creating the sample table
 
 CREATE TABLE sample_table (
