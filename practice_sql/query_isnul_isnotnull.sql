@@ -13,7 +13,6 @@ CREATE TABLE employees (
     email NVARCHAR(100)
 );
 
-
 -- Insert data into the 'employees' table
 INSERT INTO employees VALUES
     (1, 'John Doe', 'IT', 60000.00, NULL, 'john.doe@company.com'),
