@@ -1,5 +1,6 @@
 /*********************************************
   SQL File: query_join.sql
+
   Description: This file contains the SQL schema and sample data for a simple company database.
 **********************************************/
 
