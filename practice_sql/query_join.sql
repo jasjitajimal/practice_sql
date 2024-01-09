@@ -15,7 +15,6 @@ CREATE TABLE employees (
     hire_date DATE -- Date when the employee was hired
 );
 
-
 /*************************************
   Sample Data for employees Table
 *************************************/
