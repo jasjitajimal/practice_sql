@@ -3,6 +3,7 @@
   Description: This file contains the SQL schema and sample data for a simple company database.
 **********************************************/
 
+
 /*************************************
   Table: employees
   Description: Stores information about employees.
