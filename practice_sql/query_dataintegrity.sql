@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS students (
     total_credit_hours INTEGER DEFAULT 0 -- Default value for total_credit_hours is 0
 );
 
+
 CREATE TABLE IF NOT EXISTS enrolled_courses (
     enrollment_id INTEGER PRIMARY KEY, -- Primary key for uniquely identifying enrollments
     student_id INTEGER,
