@@ -1,5 +1,5 @@
 # Practice_SQL
-
+\
 Follow the step-by-step process of learning SQL by navigating through the links in the Table of Contents that lead to SQL queries.
 
 1. **Sql Basics**
