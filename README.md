@@ -19,6 +19,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [String Functions](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_sring_function.sql)
       3. [Date Function](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_date_functions.sql)
 
+
 2. **Advanced SQL**
    1. *Joins*
       1. [Joins](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_join.sql)
