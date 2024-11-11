@@ -66,7 +66,7 @@ Follow the step-by-step process of learning SQL by navigating through the links 
       2. [Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank.sql)
       3. [Dense_Rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_dense_rank.sql)
       4. [Difference between rank and dense_rank](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_rank_vs_dense_rank.sql)
-      4. [Over](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_over.sql)
+      4. [Over](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_over.sql) 
       
    2. *CTE (Common Table Expressions):*
       1. [Syntax and usage of CTE](https://github.com/jasjitajimal/practice_sql/blob/main/practice_sql/query_cte.sql)
