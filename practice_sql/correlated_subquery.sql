@@ -6,6 +6,7 @@
   The result of the inner query depends on the current row being processed by the outer query.
 **********************************************/
 
+
 /*************************************
   Table: employees
   Description: Stores information about employees.
